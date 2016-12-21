@@ -1,0 +1,58 @@
+/* Simple Reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	background-color: #6B92B9!important;
+}
+.img-land-wrapper{
+	position: fixed;
+	left:0;
+	bottom: 0;
+	margin-bottom: 0;
+	z-index: -9999;
+}
+.container, .row{
+	height: 100%;
+}
+canvas{
+	display: block;
+}
+.img-h40{
+	max-height: 40px;
+
+}
+
+.navbar-green{
+	background-color: #48b14c!important;
+	border-bottom: 3px solid red;
+}
+.a-thema{
+	font-family: 'Great Vibes', cursive;
+	color: #fff;
+	font-size: 1.8em!important;
+	text-shadow: 1px 1px 2px #329335,
+				 2px 2px 2px #257526;
+}
+
+.a-thema:hover{
+	color: red;
+	text-shadow: 1px 1px 1px #f9f9f9,
+				 2px 2px 1px #fff,
+				 4px 4px 3px rgba(0, 0, 0 , 50);
+}
+.col-centered{
+float: none!important;
+margin: 0 auto;
+}
+
+.hero {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
